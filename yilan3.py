@@ -1,7 +1,7 @@
 import time
 startTime = time.time()
 L = []
-while (time.time() - startTime) < 100:
+while (time.time() - startTime) < 60:
     L.append([raw_input().split(' ')])
     print (time.time() - startTime)
 i = 0
